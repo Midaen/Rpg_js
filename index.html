@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Don't look back</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <script src="js\stuff.js"></script>
+    <script src="js\monster.js"></script>
+    <script src="js\player.js"></script>
+    <form name="myForm" onsubmit="return false">
+  Name:<br>
+  <input type="text" name="recievedName"><br><br>
+  <input type="submit" value="Valider" onclick="return createPlayer()">
+</form>
+<br>
+<div id='main' class='story'></div>
+<div id='info' class='stats'> </div>
+<div id='invent' class='inventory'></div>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+form{
+  position: fixed;
+  z-index: 1;
+}
+
+.stats{
+  position: absolute;
+  z-index: 2;
+  font-size: 17px;
+  top : 25px;
+  left : 25px;
+  }
+
+.story{
+  position: absolute;
+  justify-content: center;
+  font-size: 17px;
+
+  top: 10%;
+  left:35%;
+  width: 50%;
+  height: 30%;
+}
+.inventory{
+  font-size: 17px;
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  justify-content: center;
+  text-align: center;
+}
